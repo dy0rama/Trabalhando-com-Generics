@@ -27,7 +27,7 @@ public class Produto implements Comparable<Produto>{
 
     @Override
     public int compareTo(Produto o) {
-        return Double.compare(this.preco, o.preco);
+        return Double.compare(o.preco, this.preco);
     }
 
     @Override
